@@ -1,29 +1,4 @@
 #!/usr/bin/env python 
-"""
-modified by Adam Polak 2014, polakiumengineering.org
-
-based on Copyright (C) 2009 Nick Drobchenko, nick@cnc-club.ru
-based on gcode.py (C) 2007 hugomatic... 
-based on addnodes.py (C) 2005,2007 Aaron Spike, aaron@ekips.org
-based on dots.py (C) 2005 Aaron Spike, aaron@ekips.org
-based on interp.py (C) 2005 Aaron Spike, aaron@ekips.org
-based on bezmisc.py (C) 2005 Aaron Spike, aaron@ekips.org
-based on cubicsuperpath.py (C) 2005 Aaron Spike, aaron@ekips.org
-
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program; if not, write to the Free Software
-Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
-"""
 import inkex, simplestyle, simplepath
 import cubicsuperpath, simpletransform, bezmisc
 
